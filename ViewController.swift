@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         
         let output = UIImage(ciImage: (filter?.outputImage)!.transformed(by: transform))
         
+        // Assign QR code to UIImageView.
         qrImageView.image = output
     }
 
